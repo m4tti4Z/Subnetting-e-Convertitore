@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result subnet</title>
+</head>
+<link rel="stylesheet" href="/result-subnet.css">
+
+<body>
+    <div id="nav-bars">
+        <a href="/calc-subnet">Calcolo subnet</a>
+        <a href="/">Torna alla Home</a>
+    </div>
+    <div id="container-result">
+        <h1>Result subnet</h1>
+
+        <p><strong>IP inserito:</strong>
+            <%= ip %>
+        </p>
+        <p><strong>CIDR:</strong>
+            <%= cidr %>
+        </p>
+        <p><strong>Subnet Mask:</strong>
+            <%= subnetMask %>
+        </p>
+        <p><strong>Indirizzo di rete:</strong>
+            <%= network %>
+        </p>
+        <p><strong>Indirizzo di broadcast:</strong>
+            <%= broadcast %>
+        </p>
+        <p><strong>Primo host disponibile:</strong>
+            <%= firstHost %>
+        </p>
+        <p><strong>Ultimo host disponibile:</strong>
+            <%= lastHost %>
+        </p>
+            <p><strong>Numero host disponibile:</strong>
+            <%= availableHosts %>
+        </p>
+    </div>
+    
+    
+
+
+</body>
+
+</html>

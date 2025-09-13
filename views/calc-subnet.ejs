@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo subnet</title>
+    <link rel="stylesheet" href="/calc.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <a href="/" ><strong>Torna alla home</strong></a>
+        <a href="/" ><strong>Convertitore</strong></a>
+    </div>
+    <h2>Calcolo subnet   </h2>
+    
+    <form action="/calc-subnet" method="post">
+        <label>IP:</label>
+        <input type="text" name="ip" placeholder="inserire l'ip" required>
+        <br><br>
+
+        <label>CIDR:</label>
+        <input type="number" name="cidr" min="1" max="30" required>
+        <br>
+        <button type="submit">Calcola</button>
+        
+    </form>
+</body>
+</html>
